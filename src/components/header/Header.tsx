@@ -13,7 +13,6 @@ interface TableHeaderProps {
 const TableHeader: React.FC<TableHeaderProps> = ({
   artworks,
   selectedRows,
-  onRowCountSubmit,
   onSelectAll,
 }) => {
   const isAllSelected = artworks.every((artwork) =>
